@@ -1,6 +1,3 @@
-import { Octokit } from "@octokit/rest";
-
-// const octokit = new Octokit({});
 
 async function cloneAndModifyRepo() {
     const owner = 'mudsahni';
