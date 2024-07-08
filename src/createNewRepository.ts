@@ -1,7 +1,7 @@
 import { Octokit } from "@octokit/rest";
 
 const octokit = new Octokit({
-    auth: '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'
+    auth: 'token'
 });
 
 async function cloneAndModifyRepo() {
